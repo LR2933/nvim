@@ -23,3 +23,6 @@ vim.opt.rtp:prepend(lazypath)
 
 -- 2. 初始化 lazy.nvim 并添加插件
 require("lazy").setup("plugins")
+
+--开启真彩色支持
+vim.opt.termguicolors = true
